@@ -27,3 +27,72 @@
 </div>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Change Background Color</title>
+</head>
+<body>
+
+<button onclick="changeBackgroundColor()">Change Background Color</button>
+
+<script>
+function changeBackgroundColor() {
+  // Replace with your desired RGB values
+  var red = 255;   // Red value
+  var green = 0;   // Green value
+  var blue = 0;    // Blue value
+  
+  // Construct the RGB color string
+  var rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+  
+  // Change the background color of the body
+  document.body.style.backgroundColor = rgbColor;
+}
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Media Buttons</title>
+<style>
+  .social-btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .discord { background-color: #7289DA; }
+  .youtube { background-color: #FF0000; }
+  .instagram { background-color: #C13584; }
+  .tiktok { background-color: #000000; }
+</style>
+</head>
+<body>
+
+<!-- Discord Button -->
+<a href="https://discord.gg/w2XmJgHwrt" class="social-btn discord" target="_blank">Discord</a>
+
+<!-- YouTube Button -->
+<a href="https://www.youtube.com/channel/UC-hmJ_Lr1KymdQC7P_KifXg" class="social-btn youtube" target="_blank">YouTube</a>
+
+<!-- Instagram Button -->
+<a href="https://www.instagram.com/sclrxd_mw2/" class="social-btn instagram" target="_blank">Instagram</a>
+
+<!-- TikTok Button -->
+<a href="https://www.tiktok.com/@vxry_codm" class="social-btn tiktok" target="_blank">TikTok</a>
+
+</body>
+</html>
